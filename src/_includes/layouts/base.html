@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <link rel="stylesheet" href="/css/wiki.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <title>{{ title }}</title> 
   </head>
@@ -43,5 +44,17 @@
       <p>Copyright {{ site.author }}</p>
       <p>Worldbuilding template created in 11ty by <a href="https://jaydnedwards.com/">Jaydn Edwards</a></p>
     </footer>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
