@@ -1,0 +1,23 @@
+{
+  "name": "worldbuilding-wiki",
+  "version": "1.0.0",
+  "description": "This is a worldbuilding wiki I am building in eleventy.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydnEdwards/worldbuilding-wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydnEdwards/worldbuilding-wiki/issues"
+  },
+  "homepage": "https://github.com/JaydnEdwards/worldbuilding-wiki#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}

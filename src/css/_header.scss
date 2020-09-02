@@ -1,0 +1,23 @@
+header{
+    text-align: centre;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding-top: 1.5rem;
+
+    h1{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li{
+            margin: 1.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid black;
+        }
+    }
+}

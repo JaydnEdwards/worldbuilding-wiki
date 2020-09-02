@@ -1,0 +1,243 @@
+/* Box sizing rules 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+header {
+  text-align: centre;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-top: 1.5rem;
+}
+header h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+header nav ul li {
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 2rem;
+}
+
+* {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: inherit;
+  color: #AC3942;
+}
+
+caption {
+  font-size: 2rem;
+}
+
+tbody th {
+  font-weight: 400;
+}
+
+body {
+  background-color: #EBE3E1;
+}
+
+header {
+  background-color: #AC3942;
+  color: #ffffff;
+}
+header a {
+  color: #ffffff;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+.body-grid main,
+.body-grid aside {
+  border: 1px solid black;
+  padding: 0 0.5em;
+}
+.body-grid main h2,
+.body-grid aside h2 {
+  text-decoration: underline;
+  text-decoration-color: #AC3942;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 200%), 2fr));
+  grid-gap: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 0 0.5em;
+  align-items: center;
+}
+
+.dashboardItem {
+  align-self: baseline;
+}
+.dashboardItem h2 {
+  margin-bottom: 0.5em;
+}
+
+.dashboardList {
+  list-style: none;
+}
+.dashboardList li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-right: 5px;
+}
+
+.characterProfile {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 0.5em;
+}
+
+article h1 {
+  text-decoration: underline #AC3942;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table thead {
+  background-color: #AC3942;
+  color: #ffffff;
+}
+table th {
+  text-align: center;
+}
+table th {
+  text-align: left;
+  padding: 0.5em;
+}
+table tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+table tbody tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/*# sourceMappingURL=wiki.css.map */

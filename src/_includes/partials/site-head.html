@@ -1,0 +1,16 @@
+<a class="[ skip-link ] [ button ] [ visually-hidden ]" href="#main-content">Skip to content</a>
+<header role="banner" class="site-head">
+    <h1><a href="/">{{ site.name }}</a></h1>
+
+    <nav>
+        <ul class="nav__list">
+            {% for item in navigation.items %}
+            <li>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+                ><span class="[ emoji ]">{{ item.emoji }}</span> {{ item.text }}</a
+            >
+            </li>
+            {% endfor %}
+        </ul>
+      </nav>
+</header>

@@ -1,0 +1,6 @@
+<h2>{{ listItems.title }}</h2>
+      {% for item in listItems %}
+        <ul>
+          <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+        </ul>    
+      {% endfor %}

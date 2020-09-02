@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %} 
+{% set listItems = collections.characters %}
+
+{% block content %}
+  <article>
+    <h2>{{ title }}</h2>
+    {% include "partials/tag-list.html" %}
+  </article>
+{% endblock %}

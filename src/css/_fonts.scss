@@ -1,0 +1,29 @@
+*{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+a{
+    font-size: inherit;
+    color: $primary;
+}
+
+caption{
+    font-size: 2rem;
+}
+
+tbody th{
+    font-weight: 400;
+}

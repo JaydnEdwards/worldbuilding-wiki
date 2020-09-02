@@ -1,0 +1,59 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/",
+        "emoji": "🏠"
+      },
+      {
+        "text": "Characters",
+        "url": "/characters/",
+        "emoji": "🧑🏾‍🤝‍🧑🏻"
+      },
+      {
+        "text": "Races",
+        "url": "/races/",
+        "emoji": "🧑🏾‍🤝‍🧑🏻"
+      },
+      {
+        "text": "Factions",
+        "url": "/factions/",
+        "emoji": "🛡️"
+      },
+      {
+        "text": "Creatures",
+        "url": "/creatures/",
+        "emoji": "🐉"
+      },
+      {
+        "text": "Magic Systems",
+        "url": "/magic/",
+        "emoji": "🔮"
+      },
+      {
+        "text": "Settings and Places",
+        "url": "/places/",
+        "emoji": "🌄"
+      },
+      {
+        "text": "Research",
+        "url": "/research/",
+        "emoji": "📜"
+      },
+      {
+        "text": "Outlines",
+        "url": "/outlines/",
+        "emoji": "🖊️"
+      },
+      {
+        "text": "General Notes",
+        "url": "/notes/",
+        "emoji": "📝"
+      },
+      {
+        "text": "Drafts",
+        "url": "/drafts/",
+        "emoji": "📕"
+      }
+    ]
+  }

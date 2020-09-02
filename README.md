@@ -1,2 +1,2 @@
-# worldbuilding-wiki
-A world building wiki designed for a single user.
+# Fantasy Worldbuilding Wiki
+This is a worldbuilding wiki I am building in eleventy.

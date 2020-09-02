@@ -1,0 +1,57 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+    <article>
+        <img src="{{ image }}" class="characterProfile"/>
+        <h1>{{ title }}</h1>
+        <table>
+
+            <caption>Character Details</caption>
+
+            <thead>
+            <tr>
+                <th>Property</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+
+            {% if name %}
+            <tr>
+                <th>Name</th>
+                <th>{{ name }}</th>
+            </tr>
+            {% endif %}
+
+            {% if age %}
+            <tr>
+                <th>Age</th>
+                <th>{{ age }}</th>
+            </tr>
+            {% endif %}
+
+            {% if race %}
+            <tr>
+                <th>Race</th>
+                <th>{{ race }}</th>
+            </tr>
+            {% endif %}
+
+            {% if faction %}
+            <tr>
+                <th>Faction</th>
+                <th>{{ faction }}</th>
+            </tr>
+            {% endif %}
+
+            {% if description %}
+            <tr>
+                <th>Physical Description</th>
+                <th>{{ description }}</th>
+            </tr>
+            {% endif %}
+        </table>
+
+        {{ content | safe }}
+    </article>
+
+{% endblock %}
